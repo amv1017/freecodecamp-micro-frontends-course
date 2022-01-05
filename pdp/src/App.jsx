@@ -6,6 +6,7 @@ import Footer from "home/Footer"
 import PDPContent from "./PDPContent"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import "./index.scss"
+import "remixicon/fonts/remixicon.css"
 
 const App = () => {
   return(
