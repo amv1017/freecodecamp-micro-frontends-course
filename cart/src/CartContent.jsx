@@ -10,7 +10,7 @@ export default function CartContent() {
     cart.subscribe((value) => setItems(value?.cartItems ?? []))
   }, [])
 
-  return (
+  return(
     <div>
       <div className="my-10 grid grid-cols-4 gap-5">
         {items.map((item) => (
